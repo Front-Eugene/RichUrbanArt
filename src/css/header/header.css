@@ -1,0 +1,117 @@
+header {
+    width: 100%;
+    max-width: 1300px;
+    margin: 70px auto 0 auto;
+    position: relative;
+    border-radius: 10px;
+    font-family: Permanent;
+    overflow: hidden; 
+}
+
+.header-btn {
+    width: 250px;
+    height: 50px;
+    margin: 0 auto 20px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    font-family: Roboto-Bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: linear-gradient(#000 50%, #fff);
+    color: #9fff00;
+}
+
+.category-item {
+    width: calc((100% / 3) - 15px);
+    height: 200px;
+    margin:  0 0 20px 0;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background: #000;
+    overflow: hidden;
+}
+
+.category-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: Roboto-light;
+    color: #fff;
+}
+
+.category-link h2 {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    background-color: rgba(0, 0, 0, .8);
+    color: #9fff00;
+    transition: .5s ease-out;
+}
+
+.category-item:hover h2 {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0);
+}
+
+.item-wrap {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.category-item:hover {
+    transition: background-size 1s ease-out;
+    background-size: 110%;
+}
+
+
+.item-1 {
+    background: url(../../img/header/category/duck.png) center center/cover no-repeat;
+    transition: all 1s ease-out;
+    background-size: 100%;
+}
+
+.item-2 {
+    background: url(../../img/header/category/motivation.JPG) center center/cover no-repeat;
+    transition: all 1s ease-out;
+    background-size: 100%;
+}
+
+.item-3 {
+    background: url(../../img/header/category/car.jpg) center center/cover no-repeat;
+    transition: all 1s ease-out;
+    background-size: 100%;
+}
+
+.item-4 {
+    background: url(../../img/header/category/lips.JPG) center center/cover no-repeat;
+    transition: all 1s ease-out;
+    background-size: 100%;
+}
+
+.item-5 {
+    background: url(../../img/header/category/money.jpg) center center/cover no-repeat;
+    transition: all 1s ease-out;
+    background-size: 100%;
+}
+
+.item-6 {
+    background: url(../../img/header/category/new.jpg) center center/cover no-repeat;
+    transition: all 1s ease-out;
+    background-size: 100%;
+}
+
+.hiden {
+    display: none;
+}
+

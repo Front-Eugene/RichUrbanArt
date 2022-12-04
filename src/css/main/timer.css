@@ -1,0 +1,32 @@
+.timer {
+    max-width: 1300px;
+    width: 100%;
+    margin: 20px auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    /* background: linear-gradient(#000, #fff); */
+}
+
+.timer div {
+    width: 200px;
+    height: 150px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 70px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #9fff00;
+    text-shadow: 14px 12px 5px #000;
+    border-radius: 10px;
+}
+
+.timer p {
+    font-size: 20px;
+    text-shadow: none;
+}

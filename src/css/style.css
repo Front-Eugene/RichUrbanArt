@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Permanent; 
+    src: url(../fonts/Permanent.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Bold; 
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto-light; 
+    src: url(../fonts/Roboto-light.ttf);
+}
+
+
+body {
+    width: calc(100% - 20px);
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Roboto-light;
+    background: 
+    linear-gradient(
+        19deg, rgb(190, 9, 64), 
+                rgb(80, 0, 67),
+                rgb(17, 0, 80),
+                rgb(0, 80, 13),
+                rgb(0, 80, 67),
+                rgb(0, 68, 40),
+                rgb(73, 6, 160),
+                rgb(13, 196, 180),
+                rgb(204, 120, 10),
+                rgb(190, 9, 64), 
+                rgb(80, 0, 67)
+    );
+}
+
+main {
+    width: 100%;
+}

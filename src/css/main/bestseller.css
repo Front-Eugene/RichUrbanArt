@@ -1,0 +1,55 @@
+.bestseller {
+    max-width: 1300px;
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    /* background: rgb(255, 255, 255); */
+}
+
+.bestseller button {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: 5px solid #fff;
+    font-size: 30px;
+    display: flex;
+    font-weight: 900;
+    color: #fff;
+    background: none;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bestseller-wrap {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+}
+
+.bestseller-track {
+    width: 90%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.bestseller-item {
+    min-width: calc(390px - 20px);
+    margin: 0 10px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 150px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 0, 200);
+    background: url(../../img/header/category/duck.png) center center/cover no-repeat;
+}
